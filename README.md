@@ -12,9 +12,9 @@ modeled after real-world reorder/retention analysis used by D2C and nutrition/ph
 
 ## Database Design
 Normalized into 3 tables in MySQL:
-- `customers` (4,347 rows) — CustomerID, Country
-- `products` (3,897 rows) — StockCode, Description
-- `orders` (397,924 rows) — InvoiceNo, CustomerID, StockCode, Quantity, OrderDate, UnitPrice
+- `customers` (4,347 rows) : CustomerID, Country
+- `products` (3,897 rows) : StockCode, Description
+- `orders` (397,924 rows) : InvoiceNo, CustomerID, StockCode, Quantity, OrderDate, UnitPrice
 
 ## Key Findings
 - **Customer concentration:** Top customer placed 7,847 orders, suggesting a wholesale/bulk-buyer
