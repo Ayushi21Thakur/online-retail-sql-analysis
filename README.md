@@ -18,12 +18,12 @@ Normalized into 3 tables in MySQL:
 
 ## Key Findings
 - **Customer concentration:** Top customer placed 7,847 orders, suggesting a wholesale/bulk-buyer
-  segment within the customer base — most high-order customers are UK-based, with some in Ireland
+  segment within the customer base, most high-order customers are UK-based, with some in Ireland
   and the Netherlands.
 - **Churn risk:** 2,265 customers (52% of the customer base) have not ordered in 45+ days,
   flagging a strong candidate list for a retention/reminder campaign.
 - **Top product:** "Paper Craft, Little Birdie" led by volume (80,995 units). Noted some products
-  appear under multiple StockCodes with near-identical names — a data quality issue worth flagging
+  appear under multiple StockCodes with near-identical names, a data quality issue worth flagging
   for a real business.
 - **Average order value:** £22.39
 
